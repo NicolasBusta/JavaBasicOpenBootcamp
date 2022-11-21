@@ -18,7 +18,7 @@ public class Main {
 		SmartDevice smartDeviceHome = new SmartDevice(1, "Xiaomi Reproductor Multimedia", "Xiaomi", "Mi TV Box S 4K", "Negro", 64);
 		
 		//Se imprimen todos los atributos usando el metodo ToString:
-		System.out.println(smartDeviceHome.toString());
+		System.out.println(smartDeviceHome);
 		
 		//Forma de imprimirlos individualmente:
 		
@@ -33,7 +33,7 @@ public class Main {
 		SmartPhone smartPhoneSamsung = new SmartPhone(2, "Samsung Galaxy", "Samsung", "A 22", "gris", 128,"MediaTek MT6833 Dimensity 700","Android 11",48,8, 4);
 
 		//Se imprimen todos los atributos usando el metodo ToString:
-		System.out.println(smartPhoneSamsung.toString());
+		System.out.println(smartPhoneSamsung);
 		
 		//Forma de imprimirlos individualmente:
 		System.out.println("Nombre:"+smartPhoneSamsung.getNombre());
@@ -52,7 +52,7 @@ public class Main {
 		SmartWatch SmartWatchSamsung = new SmartWatch(3, "Samsung Galaxy Watch5", "Samsung", "Watch5 (Bluetooth)", "Negro", 7.5,true,"44");
 		
 		//Se imprimen todos los atributos usando el metodo ToString:
-		System.out.println(SmartWatchSamsung.toString());
+		System.out.println(SmartWatchSamsung);
 		
 		//Forma de imprimirlos individualmente:
 		System.out.println("Nombre:"+SmartWatchSamsung.getNombre());
